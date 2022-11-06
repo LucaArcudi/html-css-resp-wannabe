@@ -136,7 +136,7 @@ img {
     }
 }
 
- /* -----------PC---------------- */
+ /* -----------MOBILE---------------- */
 
 @media screen and (max-width: 480px){
     .row{
@@ -159,5 +159,13 @@ img {
         padding-top: 3rem;
         margin-bottom: 0;
         padding-bottom: 3rem;
+    }
+}
+
+/* ------------BONUS----------------- */
+
+@media screen and (max-width: 1140px) {
+    div.container{
+        width: 100%;
     }
 }
